@@ -24,10 +24,12 @@ C나 C++은 `free()`, `malloc()`으로 수동으로 해제해야 하지만 JavaS
 **① Reference-Counting**
 
 자신을 참조하는 객체의 개수를 카운팅하고, 참조 되지 않는 객체가 있다면 수거
-
-![](https://velog.velcdn.com/images/oazin15/post/6ec199a9-d5f7-46a8-b402-2618537dcc69/image.png)
+![스크린샷 2025-07-06 오전 11 50 56](https://github.com/user-attachments/assets/f6a8a59e-0e3d-413c-973d-a63ec35c6494)
 
 - 순환 참조 문제
+
+
+![](https://velog.velcdn.com/images/oazin15/post/6ec199a9-d5f7-46a8-b402-2618537dcc69/image.png)
 ```javascript
 let obj1 = {};
 let obj2 = {};
